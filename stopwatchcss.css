@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   body{
+    background-image: image-set("https://media.istockphoto.com/id/149003129/photo/super-car-onracetrack.jpg?s=2048x2048&w=is&k=20&c=BT6k6MS_edZNFim8M740CsG_X3Q4CzS3kCBwaoVilDI=");
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ flex-direction: column;
+}
+.stopwatch{
+ background-color: rgba(0, 0, 0, 0.9);
+ padding: 20px 24px;
+ border-radius: 10px;
+}
+.timerDisplay{
+ font-size: 50px;
+ font-weight: 600;
+}
+.buttons{
+ margin-top: 20px;
+}
+.btn{
+ font-size: 20px;
+ background: none;
+ border: none;
+ color: #fff;
+ background-color: var(--clr);
+ padding: 12px 24px;
+ margin-inline: 12px;
+ border-radius: 8px;
+ cursor: pointer;
+}
